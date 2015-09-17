@@ -1,0 +1,20 @@
+.chat-container{
+  background: lightslategray;
+
+  .chat-name{
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .chat-messages{
+    height:300px;
+    width: 100%;
+    overflow-y: scroll;
+    background: lightcyan;
+  }
+  .message-area{
+    width: 100%;
+    resize: none;
+    margin: 10px 0px;
+
+  }
+}
